@@ -1,0 +1,49 @@
+{
+  "name": "mcp-crypto-arbitrage",
+  "version": "1.0.0",
+  "description": "MCP server exposing CoinGecko crypto prices and arbitrage spread detection as tools — no API key required.",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "mcp-crypto-arbitrage": "./dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc && tsc-alias && chmod +x dist/index.js",
+    "start": "node dist/index.js",
+    "lint": "biome lint .",
+    "format": "biome format --write .",
+    "check": "biome check --write ."
+  },
+  "keywords": [
+    "mcp",
+    "crypto",
+    "arbitrage",
+    "coingecko",
+    "typescript",
+    "model-context-protocol"
+  ],
+  "author": "Arminas B.",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.5.3",
+    "@types/node": "^22.0.0",
+    "tsc-alias": "^1.8.0",
+    "typescript": "^7.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abe-source/mcp-crypto-arbitrage.git"
+  },
+  "homepage": "https://github.com/abe-source/mcp-crypto-arbitrage#readme",
+  "bugs": {
+    "url": "https://github.com/abe-source/mcp-crypto-arbitrage/issues"
+  }
+}

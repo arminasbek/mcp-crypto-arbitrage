@@ -1,0 +1,45 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="hero-title">
+  <title id="hero-title">mcp-crypto-arbitrage — CoinGecko prices and cross-exchange spreads, exposed as MCP tools</title>
+  <defs>
+    <radialGradient id="glow" cx="82%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#16a34a" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#16a34a" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#1f2937" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="300" fill="#0a0d0a"/>
+  <rect width="1200" height="300" fill="url(#grid)" opacity="0.5"/>
+  <rect width="1200" height="300" fill="url(#glow)"/>
+
+  <!-- Spread motif, right side: two exchange nodes at different prices, delta between them -->
+  <g font-family="ui-monospace, Menlo, monospace" font-size="13">
+    <rect x="960" y="190" width="150" height="34" rx="6" fill="none" stroke="#166534" stroke-width="1.6"/>
+    <text x="978" y="212" fill="#6b7280">exchange A</text>
+
+    <rect x="1010" y="76" width="150" height="34" rx="6" fill="none" stroke="#22c55e" stroke-width="2"/>
+    <text x="1028" y="98" fill="#4ade80">exchange B</text>
+
+    <line x1="1035" y1="190" x2="1085" y2="110" stroke="#4ade80" stroke-width="1.6" stroke-dasharray="2 4" opacity="0.8" marker-end="url(#arrow)"/>
+    <defs>
+      <marker id="arrow" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+        <path d="M0,0 L8,4 L0,8 Z" fill="#4ade80"/>
+      </marker>
+    </defs>
+    <text x="1090" y="150" fill="#86efac" font-weight="700">+%</text>
+  </g>
+
+  <!-- Text -->
+  <text x="80" y="130" font-family="'SF Mono', 'Fira Code', ui-monospace, Menlo, monospace" font-size="42" font-weight="700" fill="#f1f5f4">
+    mcp-crypto-<tspan fill="#4ade80">arbitrage</tspan>
+  </text>
+  <text x="80" y="170" font-family="ui-sans-serif, -apple-system, Segoe UI, sans-serif" font-size="20" fill="#9ca3a3">
+    CoinGecko prices and cross-exchange spreads, exposed as MCP tools — no API key required
+  </text>
+
+  <text x="80" y="215" font-family="ui-monospace, Menlo, monospace" font-size="15" fill="#4b5563">
+    get_coin_prices · find_arbitrage · scan_top_coins
+  </text>
+</svg>
