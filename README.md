@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/abe-source/mcp-crypto-arbitrage/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-4ade80.svg" alt="MIT License"></a>
+  <a href="https://github.com/arminasbek/mcp-crypto-arbitrage/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-4ade80.svg" alt="MIT License"></a>
   <img src="https://img.shields.io/badge/node-%3E%3D18-4ade80.svg" alt="Node >= 18">
   <img src="https://img.shields.io/badge/TypeScript-7-4ade80.svg" alt="TypeScript 7">
   <img src="https://img.shields.io/badge/MCP-server-4ade80.svg" alt="MCP Server">
@@ -98,7 +98,7 @@ Tool arguments are validated with [Zod](https://zod.dev) before any handler runs
 ## Development
 
 ```bash
-git clone https://github.com/abe-source/mcp-crypto-arbitrage.git
+git clone https://github.com/arminasbek/mcp-crypto-arbitrage.git
 cd mcp-crypto-arbitrage
 npm install
 npm run build   # compile TypeScript

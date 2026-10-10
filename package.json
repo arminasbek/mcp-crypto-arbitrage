@@ -40,10 +40,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/abe-source/mcp-crypto-arbitrage.git"
+    "url": "git+https://github.com/arminasbek/mcp-crypto-arbitrage.git"
   },
-  "homepage": "https://github.com/abe-source/mcp-crypto-arbitrage#readme",
+  "homepage": "https://github.com/arminasbek/mcp-crypto-arbitrage#readme",
   "bugs": {
-    "url": "https://github.com/abe-source/mcp-crypto-arbitrage/issues"
+    "url": "https://github.com/arminasbek/mcp-crypto-arbitrage/issues"
   }
 }
